@@ -478,6 +478,12 @@ footer #sectioni3 p{
     #nuevo h2{
         font-size: 15px;
     }
+    .articled2 h2{
+        margin-bottom: 1%;
+    }
+    .articled2 img{
+        margin-top: 1%;
+    }
     .texto{
         font-size: 10px;
     }
