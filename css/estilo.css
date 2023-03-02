@@ -3,7 +3,10 @@
     margin: 0;
     text-decoration: none;
     list-style : none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*box-sizing: border-box;*/
+    line-height: normal;
+    color: #000000;
 }
 /**BODY**/
 
@@ -40,10 +43,7 @@ header img {
     background: url(../imagenes/fotoheader.jpg);
     width: 30%;
     position: relative;
-    left: 35%; 
-    border: #000000 1px solid;
-
-    
+    left: 35%;     
 }
 nav li:hover {
     font-weight: bold;
@@ -98,22 +98,38 @@ header h2 {
 
 }
 
+#centro h2{
+    color: #ffffff;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    margin-left: 4%;
+}
+
 .texto{
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-size: 19px;
 }
 
 #centro2 {
     font-size: 20px;
-    height: 200%;
-    width: 60%;
-    text-align: center;    
-    margin-left: 2%;
-    margin-right: 10%;
+    /*height: 200%;*/
+    width: 70%;
+    /*margin-left: 2%;*/
+    /*margin-right: 10%;*/
     margin-top: 2%;
     position: relative;
-    float: center;
-    left: 40%;
+    /*left: 40%;*/
 
+}
+
+#centro2 h2{
+    color: rgb(255, 255, 255);
+    text-transform:uppercase;
+    float: center;
+    width: 100%;
+    text-align: center;    
+    padding-left:22%;
 }
 
 
@@ -179,7 +195,17 @@ iframe{
     width: 100%;
     margin-top: 4%;
     margin-right: 2%;
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(238, 238, 238);
+}
+
+#sectioni3 h3{
+    color :#ff0000;
+    margin-bottom: 1%;
+}
+
+#sectioni3 p{
+    margin-bottom: 2%;
+    line-height: normal;
 }
 
 
@@ -230,7 +256,9 @@ section article h2{
 }
 
 #ayuda{
-    margin-right: 10%;
+    color: rgb(255, 255, 255);
+    text-transform:uppercase;
+    margin-right: 1%;
 }
 
 section article p {
@@ -260,7 +288,7 @@ section article p {
 #foto_material{
     position: relative;
     width: 80%;
-    padding-left: 12%;
+    padding-left: 10%;
 }
 
 #foto_uno{
@@ -277,7 +305,7 @@ section article p {
     width: 48%;
     height: 30%;
 }
-#foto_dos img{
+/* #foto_dos img{
     position:relative;
     float: left;
     margin-top: 3%;
@@ -286,6 +314,28 @@ section article p {
     min-width: 45%;
     height: 45%;
     min-height: 15%;
+} */
+
+#foto_Yoda{
+    margin-top: 10%;
+    float: left;
+    position: absolute;
+    margin-left: 120%;
+    width: 57%;
+    
+}
+#foto_DDL{
+    margin-top: 10%;
+    margin-left: 30%;
+    float: left;
+    width: 60%;
+}
+#foto_Vikingo{
+    margin-top: 10%;
+    position: absolute;
+    float: left;
+    margin-left: 30%;
+    width: 61%;
 }
 
 #foto_tres {
@@ -299,8 +349,9 @@ section article p {
 #nuevo{
     float: left;
     position: relative;
-    padding-right: 28%;
-    height: 200%;
+    /*padding-right: 28%;*/
+    height: 100%;
+    width: 99%;
 }
 
 
@@ -390,20 +441,19 @@ footer #sectioni3 p{
     margin-right: 40px;
     cursor: pointer;
     display: none;
-    /*border : 2px red solid;*/
 }
 #check{
     display: none;
 }
 
 
-@media (max-width: 1100px){    
+@media (max-width: 1200px){    
     nav ul li {
         font-size: 20px;
     }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1060px){
     .checkbtn{
         display: block;
     }
@@ -411,7 +461,7 @@ footer #sectioni3 p{
     ul{
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 102vh;
         background: #2c3e50;
         top: 80px;
         left: -100%;
@@ -457,6 +507,7 @@ footer #sectioni3 p{
 /********** ENLACES DEL MENU **********/
 
 #menu ul a{
+
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -473,7 +524,7 @@ footer #sectioni3 p{
     position:relative;
     margin:0;
     padding-right:5%;
-    margin-right: 2%;
+    margin-right: 1%;
 }
 
 /* efecto al pasar el ratón por los items del menu */
@@ -497,7 +548,7 @@ footer #sectioni3 p{
 
 #menu ul ul li {
  float:none;
- width: 155px
+ width: 140px
 }
 
 /* enlaces de los items del menu desplegable */
