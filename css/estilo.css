@@ -466,6 +466,24 @@ footer #sectioni3 p{
 }
 
 @media (max-width: 1060px){
+    #centro h2{
+        font-size: 15px;
+    }
+    .ayuda{
+        font-size: 15px;
+    }
+    #ayuda2{
+        font-size: 15px;
+    }
+    #nuevo h2{
+        font-size: 15px;
+    }
+    .texto{
+        font-size: 10px;
+    }
+    #sectioni3 h3{
+        font-size: 15px;
+    }
     .checkbtn{
         display: block;
     }
