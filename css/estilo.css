@@ -146,26 +146,30 @@ header h2 {
    
 }
 #sectiond2{
-
     position: relative;
     float: right;
-    top: 120%;
-    height : auto;
+    top: 115%;
+    height : 100%;
     width: 48%;
     right: 1%;
     margin-top: 1%;
-    display: flex;
-    flex-direction: column;
-}
 
-iframe{
+}
+#sectiond2 img{
+    height: auto;
+    width: 64%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 15%;
+}
+ /* iframe{
     max-width: 800px;
     margin-top: 50px;
     width: 90%;
-    height: 100;
+    height: 40%;
     aspect-ratio: 0.5;
 
-}
+}  */
 /* PARA LA IZQUIERDA*/
 
 #sectioni{
@@ -238,15 +242,15 @@ article p {
     text-align: center;
     font-size: 25px;
 }
-
-iframe{
+/* 
+ iframe{
     position: relative;
     margin-left: 19%;
     margin-top:2%;
     float: center;
     width : 450px;
     height : 280px;
-}
+}  */
 
 section article h2{
     text-align: center;
@@ -255,10 +259,17 @@ section article h2{
     text-decoration: underline;
 }
 
-#ayuda{
+.ayuda{
     color: rgb(255, 255, 255);
     text-transform:uppercase;
     margin-right: 1%;
+    letter-spacing: 2px;
+}
+#ayuda2{
+    color: rgb(255, 255, 255);
+    text-transform:uppercase;
+    margin-right: 5%;
+    letter-spacing: 2px;
 }
 
 section article p {
@@ -269,9 +280,9 @@ section article p {
 
 #sectioni2 .articlei img{
     width: 90%;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: 5%;
-    margin-right: 12%;
+    /*margin-right: 12%;*/
 }
 
 
@@ -286,6 +297,7 @@ section article p {
 }
 
 #foto_material{
+    margin-top: 1%;
     position: relative;
     width: 80%;
     padding-left: 10%;
