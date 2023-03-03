@@ -491,7 +491,10 @@ footer #sectioni3 p{
         font-size: 12px;
     }
     footer #sectioni3 p{
-        font-size: 10px;
+        font-size: 9px;
+    }
+    footer #sectioni3 #RRSS #TextoRRSS{
+        margin-right: 10%;
     }
     footer #sectioni3 #RRSS img{
         margin-left: 3%;
