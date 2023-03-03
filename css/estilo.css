@@ -466,6 +466,10 @@ footer #sectioni3 p{
 }
 
 @media (max-width: 1060px){
+    header h2{
+        margin-left: 22%;
+        font-size: 30px;
+    }
     #centro h2{
         font-size: 15px;
     }
