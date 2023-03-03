@@ -487,11 +487,14 @@ footer #sectioni3 p{
     .texto{
         font-size: 10px;
     }
-    #sectioni3 h3{
+    footer #sectioni3 h3{
         font-size: 12px;
     }
-    #sectioni3 p{
+    footer #sectioni3 p{
         font-size: 10px;
+    }
+    footer #sectioni3 #RRSS img{
+        margin-left: 3%;
     }
     .checkbtn{
         display: block;
