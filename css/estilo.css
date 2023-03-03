@@ -494,10 +494,14 @@ footer #sectioni3 p{
         font-size: 9px;
     }
     footer #sectioni3 #RRSS #TextoRRSS{
-        margin-right: 10%;
+        font-size: 8px;
+        border: #000000 1px solid;
+        margin-right: 30%;
     }
     footer #sectioni3 #RRSS img{
-        margin-left: 3%;
+        border: #000000 1px solid;
+        margin-left: 2%;
+    
     }
     .checkbtn{
         display: block;
