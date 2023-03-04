@@ -507,6 +507,8 @@ footer #sectioni3 p{
     }
     .checkbtn{
         display: block;
+        margin-right: 5%;
+        border: #ff0000 solid 1px;
     }
 
     ul{
